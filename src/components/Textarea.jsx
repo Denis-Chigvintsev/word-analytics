@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { fromEvent, map } from 'rxjs';
 import { useEffect, useState } from 'react';
-import { rxjs_words } from './store/rxjs_words';
-import { rxjs_chars } from './store/rxjs_chars';
+import { rxjs_words } from '../store/rxjs_words';
+import { rxjs_chars } from '../store/rxjs_chars';
 
 import Warning from './Warning';
 let text;

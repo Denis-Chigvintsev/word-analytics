@@ -1,5 +1,5 @@
-import { rxjs_chars } from './store/rxjs_chars';
-import { rxjs_words } from './store/rxjs_words';
+import { rxjs_chars } from '../store/rxjs_chars';
+import { rxjs_words } from '../store/rxjs_words';
 import { useState, useEffect } from 'react';
 
 function Stats() {
